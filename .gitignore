@@ -1,0 +1,13 @@
+db/
+incremental_db/
+simulation/
+timing/
+.sopc_builder/
+*.summary
+*.rpt
+*.sof
+*.pof
+*.done
+*.smsg
+*.bak
+*.qws
