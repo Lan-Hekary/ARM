@@ -24,7 +24,7 @@ always @(posedge clk)begin
 	cnt <= cnt + 1'b1;
 end
 
-always @(posedge cnt[21]) begin
+always @(posedge cnt[4]) begin      // normal is 21
 	if(!start) begin
 		number=0;
 		stop=0;
